@@ -90,6 +90,14 @@ import drvExcellenceFOG from './assets/DrV_ExcellenceinGlobalBusinessPromotions(
 import drvSpeakerPMModi2017 from './assets/DrV_Speaker_CommunityReceptionforPrimeMinisterShriNarendraModi(June25,2017).jpeg'
 import drvPlaqueSustainableSmartCities from './assets/DrV_Plaque_4thAnnualSustainableSmartCitiesIndia(PresentedtoPurnimaVoria).jpeg'
 import drvWhatsAppImage from './assets/WhatsAppImage2025-10-03at10.08.54.jpeg'
+// New UN images
+import drvWWFDirector from './assets/DrV_WWF_Director.jpg'
+import drvDavos from './assets/DrV_Davos.png'
+import drvRakhi1 from './assets/DrV_Rakhi_1.png'
+import drvRakhi2 from './assets/DrV_Rakhi_2.png'
+import drvRakhi3 from './assets/DrV_Rakhi_3.jpg'
+import drvSDG16AwardUN from './assets/DrV_SDG16_Award_UN.png'
+import drvSDG16PeaceJustice from './assets/DrV_SDG-16award_peace_Justice_StrongInstitution.png'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -459,6 +467,55 @@ function App() {
       src: drVoriaPhoto1,
       title: 'World RAKHI Day Launch',
       description: 'Dr. Purnima Voria received SDG-16 award – For launching the "World R.A.K.H.I Day" at the United Nations as a Peace Initiative for promoting Brotherhood and Sisterhood practices across the Globe under the theme "Vasudhaiva Kutumbakan"- The World is One family',
+      category: 'United Nations'
+    },
+    {
+      id: 58,
+      src: drvWWFDirector,
+      title: 'With WWF Director General',
+      description: 'Dr. Purnima Voria with Kirsten Schuijt, the Director General of the World Wide Fund for Nature (WWF) International',
+      category: 'United Nations'
+    },
+    {
+      id: 59,
+      src: drvDavos,
+      title: 'Davos World Economic Forum',
+      description: 'Dr. Purnima Voria at Davos 2020 World Economic Forum',
+      category: 'United Nations'
+    },
+    {
+      id: 60,
+      src: drvRakhi3,
+      title: 'World RAKHI Day at UN',
+      description: 'Dr. Purnima Voria celebrating World RAKHI Day at the United Nations',
+      category: 'United Nations'
+    },
+    {
+      id: 61,
+      src: drvRakhi2,
+      title: 'World RAKHI Day Initiative',
+      description: 'Information about World RAKHI Day initiative launched at the United Nations',
+      category: 'United Nations'
+    },
+    {
+      id: 62,
+      src: drvRakhi1,
+      title: 'World RAKHI Day Announcement',
+      description: 'Official announcement of World RAKHI Day at the United Nations',
+      category: 'United Nations'
+    },
+    {
+      id: 63,
+      src: drvSDG16AwardUN,
+      title: 'SDG-16 Award at United Nations',
+      description: 'Dr. Purnima Voria received SDG-16 award at the United Nations',
+      category: 'United Nations'
+    },
+    {
+      id: 64,
+      src: drvSDG16PeaceJustice,
+      title: 'SDG-16 Peace, Justice & Strong Institution',
+      description: 'Dr. Purnima Voria with SDG-16 award for Peace, Justice and Strong Institution',
       category: 'United Nations'
     },
     // With World Leaders
