@@ -546,35 +546,35 @@ function App() {
       src: drVoriaPortfolio,
       title: 'Book Launch - Falling in Love with India',
       description: 'Book Launch: Falling in love with India, written by Dr. Purnima Voria',
-      category: 'Professional'
+      category: 'Author'
     },
     {
       id: 21,
       src: drVoriaAboutPhoto,
       title: 'Book Signing Event',
       description: 'Dr. Purnima Voria, signing "Falling in Love with India" book',
-      category: 'Professional'
+      category: 'Author'
     },
     {
       id: 22,
       src: drVoriaEvent1,
       title: 'Journey from Home to White House',
       description: '"Falling in love with India" Dr. Voria\'s journey from "Home to the White House"',
-      category: 'Professional'
+      category: 'Author'
     },
     {
       id: 23,
       src: drVoriaEvent2,
       title: 'Daughter of Jaipur',
       description: 'Dr. Purnima Voria- a daughter of Jaipur, Rajasthan, India, embarks in the United States as a newly wed',
-      category: 'Professional'
+      category: 'Author'
     },
     {
       id: 24,
       src: drVoriaEvent3,
       title: 'Featured in Divapreneur Magazine',
       description: 'Dr. Purnima Voria featured in Divapreneur Magazine',
-      category: 'Professional'
+      category: 'Author'
     },
     // Indian Conglomerates
     {
