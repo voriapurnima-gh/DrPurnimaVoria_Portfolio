@@ -44,7 +44,7 @@ Dr. Purnima Voria is a renowned international business leader who has dedicated 
 - Professional photo collection
 - Event photography
 - Categorized image filtering:
-  - Professional
+  - Author
   - Events
   - Government Service
   - International
