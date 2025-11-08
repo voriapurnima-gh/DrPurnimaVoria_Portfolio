@@ -15,7 +15,7 @@ import drVoriaPhoto3 from './assets/zEG3CXZeaXfZ.jpeg'
 import drVoriaPortfolio from './assets/DrVoria_Portfolio.png'
 import drVoriaEvent1 from './assets/drV_Journey from home to White House.png'
 import drVoriaEvent2 from './assets/dP8JmRfwh9lE.jpg'
-import drVoriaEvent3 from './assets/Kp8XEqwNoofZ.jpg'
+import drVoriaEvent3 from './assets/DrV_Divapreneurs.png'
 // New Dr. Voria images
 import drVoriaAfrica from './assets/DrV_Africa.jpeg'
 import drVoriaAmbSupriya from './assets/DrV_Amb_Supriya.jpeg'
