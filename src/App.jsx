@@ -98,6 +98,11 @@ import drvRakhi2 from './assets/DrV_Rakhi_2.png'
 import drvRakhi3 from './assets/DrV_Rakhi_3.jpg'
 import drvSDG16AwardUN from './assets/DrV_SDG16_Award_UN.png'
 import drvSDG16PeaceJustice from './assets/DrV_SDG-16award_peace_Justice_StrongInstitution.png'
+// Author and Magazine images
+import drvBookAmbassadorKwatra from './assets/DrV_Book_Ambassador_Kwatra.jpg'
+import drvBookSigning from './assets/DrV_Book_Signing.jpg'
+import drvDaughterOfJaipur from './assets/DrV_Daughter_of_Jaipur.jpg'
+import drvInternationalTrade from './assets/DrV_International_Trade.jpg'
 
 function App() {
   const [activeSection, setActiveSection] = useState('home')
@@ -550,7 +555,7 @@ function App() {
     },
     {
       id: 21,
-      src: drVoriaAboutPhoto,
+      src: drvBookSigning,
       title: 'Book Signing Event',
       description: 'Dr. Purnima Voria, signing "Falling in Love with India" book',
       category: 'Author'
@@ -564,17 +569,32 @@ function App() {
     },
     {
       id: 23,
-      src: drVoriaEvent2,
+      src: drvDaughterOfJaipur,
       title: 'Daughter of Jaipur',
       description: 'Dr. Purnima Voria- a daughter of Jaipur, Rajasthan, India, embarks in the United States as a newly wed',
       category: 'Author'
     },
     {
-      id: 24,
+      id: 65,
+      src: drvBookAmbassadorKwatra,
+      title: 'Presenting Book to Ambassador Kwatra',
+      description: 'Dr. Purnima Voria presenting her book on India and Rajasthan to His Excellency, Vinay Mohan Kwatra (India\'s Ambassador to U.S. in Washington D.C)',
+      category: 'Author'
+    },
+    // Magazine Features
+    {
+      id: 66,
       src: drVoriaEvent3,
       title: 'Featured in Divapreneur Magazine',
       description: 'Dr. Purnima Voria featured in Divapreneur Magazine',
-      category: 'Author'
+      category: 'Magazine'
+    },
+    {
+      id: 67,
+      src: drvInternationalTrade,
+      title: 'International Trade Magazine Feature',
+      description: 'Dr. Purnima Voria featured in International Trade magazine - Sparking International Trade by Connecting Her Motherland to Her Homeland',
+      category: 'Magazine'
     },
     // Indian Conglomerates
     {
@@ -1503,7 +1523,7 @@ function App() {
 
           {/* Category Filter */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {["All", 'United States', 'India', 'United Nations', 'World Leaders', 'Professional', 'Indian Conglomerates', 'Awards & Honors'].map((category) => (
+            {["All", 'United States', 'India', 'United Nations', 'World Leaders', 'Author', 'Magazine', 'Indian Conglomerates', 'Awards & Honors'].map((category) => (
               <button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
@@ -1543,8 +1563,8 @@ function App() {
                         {image.category}
                       </Badge>
                     </div>
-                    <h3 className="text-xl font-display font-bold mb-2">{image.title}</h3>
-                    <p className="text-sm font-body text-white/90 leading-relaxed">
+                    <h3 className="text-xl font-display font-bold mb-2" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>{image.title}</h3>
+                    <p className="text-sm font-body text-white/90 leading-relaxed" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.8)'}}>
                       {image.description}
                     </p>
                   </div>
