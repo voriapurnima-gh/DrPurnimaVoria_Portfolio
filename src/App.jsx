@@ -513,7 +513,7 @@ function App() {
       id: 63,
       src: drvSDG16AwardUN,
       title: 'SDG-16 Award at United Nations',
-      description: 'Dr. Purnima Voria received SDG-16 award at the United Nations',
+      description: 'Dr. Purnima Voria received SDG-16 award – For launching the "World R.A.K.H.I Day" at the United Nations as a Peace Initiative for promoting Brotherhood and Sisterhood practices across the Globe under the theme "Vasudhaiva Kutumbakan"- The World is One family',
       category: 'United Nations'
     },
     {
