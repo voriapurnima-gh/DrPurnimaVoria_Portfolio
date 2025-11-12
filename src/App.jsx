@@ -9,7 +9,7 @@ import './App.css'
 // Import images
 import drVoriaPhoto from './assets/DrV_Red.jpg'
 import drVoriaAboutPhoto from './assets/DrVoria_NUICC_Soft_Launch.png'
-import drVoriaPhoto1 from './assets/DrV_SDG16_Award_BalckTie.jpg'
+// import drVoriaPhoto1 from './assets/DrV_SDG16_Award_BalckTie.jpg'
 import drVoriaPhoto2 from './assets/u8zPHPooRC89.jpg'
 import drVoriaPhoto3 from './assets/zEG3CXZeaXfZ.jpeg'
 import drVoriaPortfolio from './assets/DrVoria_Portfolio.png'
