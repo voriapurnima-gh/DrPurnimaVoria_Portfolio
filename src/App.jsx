@@ -352,9 +352,12 @@ function App() {
     { title: 'BBC World News London - Climate Change Commentary', url: 'https://www.bbc.com/news' },
     { title: 'Voice of America TV and Radio - Global Women\'s Empowerment', url: 'https://www.voanews.com' },
     { title: 'India Today Magazine - NRI Economic Contributions', url: 'https://www.indiatoday.in' },
-    { title: 'The Times of India - Business Leadership', url: 'https://timesofindia.indiatimes.com' },
-    { title: 'The Denver Post - Local Business Impact', url: 'https://www.denverpost.com' },
+    { title: 'The Times of India - Business Leadership', url: 'https://timesofindia.indiatimes.com/nri/us-canada-news/for-india-and-us-coming-together-is-only-a-beginning/articleshow/8760528.cms' },
+    { title: 'The Denver Post - Local Business Impact', url: 'https://www.denverpost.com/2010/11/16/denver-area-woman-pushes-trade-with-india/' },
     { title: 'The Denver Business Journal - Trade Relations', url: 'https://www.bizjournals.com/denver' },
+    { title: 'India Power Talk - Trade between India and U.S.', url: 'https://www.indiapowertalk.com/speakers/purnima-voria/' },
+    { title: 'Seattle Desi TV -Interview', url: 'https://www.indiapowertalk.com/speakers/purnima-voria/' },
+    { title: 'Bharat Diary', url: 'https://bharatdiary.org/dr-purnima-voria-a-global-bridge-builder-in-us-india-commerce/' },
     { title: 'Colorado Today Television - Community Leadership', url: 'https://www.colorado.gov' }
   ]
 
