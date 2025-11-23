@@ -22,12 +22,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install --legacy-peer-deps
-        name: Add .nojekyll file
-        run: touch dist/.nojekyll
 
       - name: Build
         run: npm run build
-        
+
+      - name: Add .nojekyll file
+        run: touch dist/.nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
