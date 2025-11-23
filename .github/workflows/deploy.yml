@@ -21,10 +21,13 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
+        name: Add .nojekyll file
+        run: touch dist/.nojekyll
 
       - name: Build
         run: npm run build
+        
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
